@@ -2,13 +2,20 @@ html {
     font-size: 16px;
   }
 
+  body{
+      display: flex;
+      justify-content: center;
+  }
+
   main{
       background-color: rgb(63, 37, 87);
+      background: radial-gradient(circle, rgb(31, 18, 44)22%, rgb(61, 36, 85)60%, rgb(76, 54, 99) 100%);
       padding: 30px;
       color: cornsilk;
-      width: 800px;
+      width: 750px;
       border-radius: 15px;
       display: block;
+      box-shadow: 10px 5px 25px rgb(39, 3, 37);
   }
 
   header{
@@ -18,7 +25,7 @@ html {
   h2{
     font-size: 3em;
     font-weight: bolder;
-    margin: 0 0 5px;
+    margin: 0 0 0px;
   }
 
   h3{
@@ -62,7 +69,22 @@ section img{
     height: 100%;
 }
 
+a{
+    background-color: rgb(220, 20, 20);
+    color:cornsilk ;
+    font-weight: bolder;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    float: left;
+}
 
+a img{
+    width: 30px;
+    margin-right: 10px;
+}
 
 
 
