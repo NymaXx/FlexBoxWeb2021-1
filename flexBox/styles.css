@@ -4,22 +4,65 @@ html {
 
   main{
       background-color: rgb(63, 37, 87);
-      padding: 10px;
+      padding: 30px;
       color: cornsilk;
       width: 800px;
       border-radius: 15px;
       display: block;
   }
+
+  header{
+      display: block;
+  }
+
+  h2{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0 0 5px;
+  }
+
+  h3{
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 0 0 20px;
+      margin-block-end: 1em;
+  }
+
+  section{
+      position: relative;
+      border-top: 0.5px dashed  rgb(181, 127, 231);
+      border-bottom: 0.5px dashed  rgb(181, 127, 231);
+  }
+
+
 ::marker{
-    color: blueviolet;
-    font-size: 2px;
+    color: rgb(181, 127, 231);
+    font-size: 20px;
 }
 
-ul{
-    list-style-type: disc;
+ ul{
+    list-style-type: circle;
 }
 
 li {
     display: list-item;
+    text-align: left;
 }
+
+p{
+    width: 60%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+section img{
+    position: absolute;
+    top: 0%;
+    right:0%;
+    height: 100%;
+}
+
+
+
+
 
