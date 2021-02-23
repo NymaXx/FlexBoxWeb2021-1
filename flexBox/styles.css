@@ -1,0 +1,25 @@
+html {
+    font-size: 16px;
+  }
+
+  main{
+      background-color: rgb(63, 37, 87);
+      padding: 10px;
+      color: cornsilk;
+      width: 800px;
+      border-radius: 15px;
+      display: block;
+  }
+::marker{
+    color: blueviolet;
+    font-size: 2px;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+}
+
